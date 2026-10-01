@@ -1,6 +1,16 @@
 # Kix's Simple Backpacks
 Simple & customizable survival-friendly item backpack plugin - a happy medium between bundles & shulker boxes
 
+## about this fork
+this is my fork, i use it on my 26.2 paper server. original plugin is by kixmc, all credit to them
+
+changes in this fork
+- built from the latest master (has the death dupe fix + enable-recipe toggle that never made it into a release)
+- fixed loadConfig calling itself on enable, the merge copied the onEnable code into it so the plugin died with a stack overflow. sent as a PR upstream too
+- version bumped to 1.0.10 so its easy to tell apart from the spigot 1.0.9
+
+tested on paper 26.2, jar is in the releases tab. license is still AGPL-3.0 same as upstream
+
 ## Compatibility
 * Spigot, Paper, & CraftBukkit on versions **1.14.x - 1.17.x** (other server types may work but are not directly supported)
 * Java 8 or newer
