@@ -28,3 +28,5 @@ nbdist/
 *.ctxt
 hs_err_pid*
 /target
+
+target/
